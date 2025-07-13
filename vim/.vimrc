@@ -7,6 +7,7 @@ set number
 set shiftwidth=2
 set softtabstop=2
 set expandtab
+set termguicolors
 syntax on
 let g:airline_powerline_fonts = 0
 
@@ -37,7 +38,9 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'edkolev/tmuxline.vim'
 Plug 'preservim/nerdtree'
 Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'catppuccin/vim', { 'as': 'catppuccin' }
 Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
 call plug#end()
-colorscheme dracula
+colorscheme catppuccin_mocha
+
